@@ -15,14 +15,14 @@ namespace OOP3
             FileLoggerService fileLoggerService = new FileLoggerService();
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(ihtiyacKrediManager, fileLoggerService);
+            //basvuruManager.BasvuruYap(ihtiyacKrediManager, fileLoggerService);
 
             List<IKrediManager> krediler = new List<IKrediManager>()
             {
                ihtiyacKrediManager, tasitKrediManager
             };
 
-            //basvuruManager.KrediOnbilgilendirmesiYap(krediler);
+            basvuruManager.KrediOnbilgilendirmesiYap(krediler);
             Console.Read();
         }
     }
