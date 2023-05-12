@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntarfaceAbstractDemoSturbu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDataBase", "IDataBase\IDataBase.csproj", "{621BF868-DDDD-47D9-9AEB-8D5A1E6F4421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject.csproj", "{1F86FD09-906E-4C73-A5D5-1941241B1F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProject", "GameProject\GameProject.csproj", "{1F86FD09-906E-4C73-A5D5-1941241B1F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{A07D4585-17E7-4B93-B9FF-C9D935B6D26F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{1F86FD09-906E-4C73-A5D5-1941241B1F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F86FD09-906E-4C73-A5D5-1941241B1F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F86FD09-906E-4C73-A5D5-1941241B1F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07D4585-17E7-4B93-B9FF-C9D935B6D26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07D4585-17E7-4B93-B9FF-C9D935B6D26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07D4585-17E7-4B93-B9FF-C9D935B6D26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07D4585-17E7-4B93-B9FF-C9D935B6D26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
